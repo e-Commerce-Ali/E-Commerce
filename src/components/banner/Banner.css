@@ -1,0 +1,27 @@
+.banner {
+  height: 84vh;
+  background-image: url("../../assets/img/close-up-cobbler-working-with-leather.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(40%);
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.banner:hover {
+  transform: scale(1.1);
+}
+
+.banner-title {
+  padding: 10px 20px;
+  letter-spacing: 4px;
+  color: var(--txt-dark);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-darkPink);
+  opacity: 0.6;
+  cursor: default;
+}

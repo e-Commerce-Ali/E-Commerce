@@ -1,7 +1,9 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Banner from "./components/banner/Banner";
+import Products from "./components/products/Products";
 const theme = createTheme({
   palette: {
     text: {
@@ -23,6 +25,9 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <Header />
+      <Banner />
+      <Products />
       <div style={{ height: '500px' }}></div>
       <Footer />
     </ThemeProvider>
