@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import "./App.css";
-import Header from "./components/Header/Header";
+import Products from "./components/product/products";
 const theme = createTheme({
   palette: {
     text: {
@@ -21,7 +21,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
+      <Products></Products>
     </ThemeProvider>
   );
 }
