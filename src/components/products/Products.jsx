@@ -35,7 +35,7 @@ function Products() {
 
     return (
         <div id='products'>
-            <h2>
+            <h2 className='products-section-title'>
                 ÜRÜNLERİMİZ
             </h2>
             <div className='container-products'>

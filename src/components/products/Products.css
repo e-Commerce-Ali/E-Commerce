@@ -2,6 +2,11 @@
   padding: 32px 80px;
 }
 
+.products-section-title{
+    letter-spacing: 1px;
+    color: var(--txt-dark2);
+}
+
 .container-products {
   display: flex;
   justify-content: center;

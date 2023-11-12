@@ -28,7 +28,6 @@ function App() {
       <Header />
       <Banner />
       <Products />
-      <div style={{ height: '500px' }}></div>
       <Footer />
     </ThemeProvider>
   );
