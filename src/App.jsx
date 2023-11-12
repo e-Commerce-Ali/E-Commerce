@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Banner from "./components/banner/Banner";
 import Products from "./components/products/Products";
+import ContactYou from "./components/contactYou/ContactYou";
 const theme = createTheme({
   palette: {
     text: {
@@ -28,6 +29,7 @@ function App() {
       <Header />
       <Banner />
       <Products />
+      <ContactYou />
       <Footer />
     </ThemeProvider>
   );
