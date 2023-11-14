@@ -7,7 +7,7 @@ export default function ProductItem() {
   return (
     <Card sx={{ cursor: "pointer" }}>
       <CardMedia
-        sx={{ height: 220, objectFit: "fill" }}
+        sx={{ height: 220, objectFit: "contain" }}
         image="https://picsum.photos/200/300"
         title="green iguana"
       />
